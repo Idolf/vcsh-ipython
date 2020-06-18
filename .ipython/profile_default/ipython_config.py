@@ -1,7 +1,6 @@
 c = get_config()
 
 c.TerminalIPythonApp.display_banner = False
-c.TerminalIPythonApp.nosep = True
 
 c.InteractiveShellApp.exec_lines = [
     'from pwn import *',
